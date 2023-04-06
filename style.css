@@ -80,6 +80,7 @@ nav img {
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   font-size: 0.8rem;
+  cursor: pointer;
 }
 .showcase-arrow {
   position: absolute;
@@ -802,3 +803,42 @@ button:focus {
 
   font-size: 13px;
 }
+
+
+
+/* Ecommerce informaton Start */
+.ecommerce-info{
+  padding: 10px 20px ;
+  border: 2px solid #fff;
+  background-color: #f2ac34;
+  border-radius: 2px;
+}
+.char_item{
+  padding: 10px 10px;
+  border: 2px dotted #fff;
+}
+.char_icon {
+  margin-top: 15px;
+  color: #fff;
+}
+
+.char_content {
+  margin-top: 22px;
+
+}
+
+.char_title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #f9f7f7;
+}
+
+.char_subtitle {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(10, 1, 1, 0.5);
+  margin-top: 3px;
+}
+
+
+/* Ecommerce informaton end */
