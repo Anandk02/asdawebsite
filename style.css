@@ -1,8 +1,12 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+
 }
 
 
@@ -147,40 +151,6 @@ nav img {
 .card {
   padding: 2rem;
 }
-
-/* about us  */
-.about{
-  position: relative;
-  height: 40vh;
-  width:80% ;
-  left: 10%;
-  top: 10px;
-  background-color: #8EC5FC;
-background-image: -webkit-linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-background-image: -moz-linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-background-image: -o-linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 20px;
-  color: #040404;
-  border-radius: 10px;
-}
-
-.about-title{
-  width: 40%;
-  padding: 5px 5px;
-  
-  font-size:38px;
-}
-
-.about-subtitle{
-  width: 50%;
-}
-
-
 /* Product Start  */
 
 .product{
@@ -307,11 +277,402 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }    
 
 
+/* About us */
+#how-we-do{
+  color:#ffffff;
+ }
+ #how-we-do h4{
+   text-align:left !important;
+ }
+ #how-we-do .how-bg-img{
+   background-image: url("https://www.arketipomagazine.it/wp-content/uploads/sites/20/2017/11/Nakaaoki_03.jpg");
+   background-size: cover;
+     background-repeat: no-repeat;
+     padding: 300px 0;
+   filter:grayscale(100%);
+ }
+ #how-we-do:hover .how-bg-img{
+   -webkit-transition: .5s all ease;
+   -moz-transition: .5s all ease;
+   transition: .5s all ease;
+   filter:grayscale(1%);
+ }
+ #how-we-do .how-contents{
+   padding:60px 30px;
+   background:#007b5e;
+ }
+ #how-we-do .how-contents ul li{
+   padding-left: 50px;
+     position: relative;
+   margin-bottom:26px;
+ }
+ #how-we-do .how-contents ul li:before{
+   font-family: FontAwesome;
+   content: "\f209";
+     position: absolute;
+     font-size: 39px;
+     color: #ffffff;
+     left: 0;
+ }
+
+ /* why Aryveda */
+ .container {
+  margin-top: 100px
+}
+
+a.img-caption {
+  margin: 0 0 40px;
+  display: block
+}
+
+.img-caption img {
+  position: relative;
+  height:300px;
+}
+
+.img-caption figure {
+  box-sizing: content-box;
+  overflow: hidden;
+  position: relative
+}
+
+.img-caption figcaption {
+  background: rgba(0, 0, 0, .4);
+  position: absolute;
+  box-sizing: content-box;
+  padding: 17px 25px;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  -webkit-transition: background-color .2s ease-in-out;
+  -moz-transition: background-color .2s ease-in-out;
+  -ms-transition: background-color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out;
+  transition: background-color .2s ease-in-out
+}
+
+.img-caption:hover figcaption {
+  background: green
+}
+
+.img-caption figcaption h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px
+}
+
+.mega .img-caption figcaption h3 {
+  font-size: 14px;
+  line-height: 20px
+}
+
+.mega .img-caption figcaption span {
+  font-size: 14px;
+  line-height: 14px
+}
+
+.mega .img-caption figcaption {
+  padding: 10px 20px
+}
+
+.img-caption figcaption span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  display: block;
+  position: relative;
+  opacity: 0;
+  max-height: 0;
+  padding: 0;
+  -webkit-transition: max-height .2s ease-in-out, opacity .2s ease-in-out, padding .2s ease-in-out;
+  -moz-transition: max-height .2s ease-in-out, opacity .2s ease-in-out, padding .2s ease-in-out;
+  -ms-transition: max-height .2s ease-in-out, opacity .2s ease-in-out, padding .2s ease-in-out;
+  -o-transition: max-height .2s ease-in-out, opacity .2s ease-in-out, padding .2s ease-in-out;
+  transition: max-height .2s ease-in-out, opacity .2s ease-in-out, padding .2s ease-in-out
+}
+
+.img-caption:hover figcaption span {
+  max-height: 50px;
+  opacity: 1;
+  padding: 5px 0 4px
+}
+
+ /* why aruyveda */
+
+
+
+/* consult us */
+.consult{
+  padding: 0px 40px 50px;
+  background-color:#0F4C81;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.h1{
+  font-size: 40px;
+}
+.row{
+  display: flex;
+  align-items: center;
+}
+
+img.support{
+  width: 350px;
+  height: auto;
+}
+.call-button{
+  background-color: #ff414ed7;
+  width: 200px;
+  height: 60px;
+  font-weight: bold;
+}
+.call-butto:hover{
+  background-color: #ff414ebd;
+}
+.call-butto:hover > .fa-long-arrow-right{
+  padding-left: 5px;
+  transition: 200ms ease-in 0s;
+}
+
+
+@media(min-width:300px) and (max-width:426px){
+  .container{
+      padding-left: 20px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+  }
+  input{
+      width: 150px;
+  }
+  img.support{
+    width: 300px;
+    height: auto;
+  }
+  button{
+      width: 140px;
+  }
+}
+@media(min-width:427px) and (max-width:575px){
+  .container{
+      padding-left: 20px;
+      padding-right: 10px;
+      padding-bottom: 1px;
+  }
+  input{
+      width: 220px;
+  }
+  img.support{
+    width: 250px;
+    height: auto;
+  }
+  }
+  
+  button{
+      width: 140px;
+  }
+}
+
+@media(min-width:946px) and (max-width:667px){
+  img.support{
+    width: 300px;
+    height: auto;
+}
+}
+@media(min-width:100px) and (max-width:180px){
+  img.support{
+  display: none;
+}
+}
+
+
+/* Consult us end */
+
 
 /* Product Ed */
 
 
+/* Counter */
+
+/* Counter end */
+
+.container{
+  margin-top:100px;
+}
+
+.counter-box {
+display: block;
+background: #f6f6f6;
+padding: 40px 20px 37px;
+text-align: center
+}
+
+.counter-box p {
+margin: 5px 0 0;
+padding: 0;
+color: #909090;
+font-size: 18px;
+font-weight: 500
+}
+
+.counter-box i {
+font-size: 60px;
+margin: 0 0 15px;
+color: #d2d2d2
+}
+
+.counter { 
+display: block;
+font-size: 32px;
+font-weight: 700;
+color: #666;
+line-height: 28px
+}
+
+.counter-box.colored {
+    background: #3acf87;
+}
+
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+color: #fff
+}
+
+
+/* Testominal start */
+
+.wrapper {
+  background-color: #222;
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 110px 120px;
+}
+
+.wrapper .content {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.testimonial {
+  padding: 20px 40px;
+  position: relative;
+}
+
+.fa-quote-left {
+  position: absolute;
+  top: -15px;
+  left: -6px;
+  font-size: 2rem;
+  color: #fab41d;
+}
+
+.fa-quote-right {
+  position: absolute;
+  bottom: -15px;
+  right: -6px;
+  font-size: 2rem;
+  color: #fab41d;
+}
+
+.employee {
+  margin-bottom: 40px;
+  padding-left: 30px;
+}
+
+.h3 {
+  margin: 0;
+}
+
+/* Carousel Indicators */
+.carousel-indicators {
+  bottom: -100px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+/* Text Transformations */
+.text-jusitfy {
+  font-weight: 700;
+}
+
+.text-mute {
+  color: #aaa;
+}
+
+/*Media Queries*/
+@media(max-width:767px) {
+  .wrapper {
+      padding: 80px 50px;
+      margin: 50px 10px;
+  }
+
+  .carousel-indicators {
+      bottom: -80px;
+  }
+}
+
+@media(max-width: 420px) {
+  .wrapper {
+      padding: 40px 20px;
+  }
+
+  .carousel-indicators {
+      bottom: -45px;
+  }
+
+  .employee {
+      margin-bottom: 40px;
+      padding-left: 15px;
+  }
+}
+/* Testominal end */
 /* Footer */
+
+#button-addon1 {
+  color: #ffc371;
+}
+
+i {
+  color: #0000cc;
+  font-size: 20px;}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
+}
+
+ 
+.display-3{
+  font-family: 'Sanchez', serif;
+}
+
+p{
+  font-family: 'Tajawal', sans-serif;
+}
+
+.lead{
+  font-family: 'Sanchez 200', serif;
+}
+
+
+/* F&Q Start */
+  
+
+/* F&Q end */
 
 
 @media screen and (max-width: 768px) {
