@@ -317,7 +317,8 @@ nav img {
 
  /* why Aryveda */
  .container {
-  margin-top: 100px
+  margin-top: 100px;
+  width: 90%;
 }
 
 a.img-caption {
@@ -711,4 +712,59 @@ p{
     right: 0;
     bottom: 50%;
   }
+}
+
+
+
+/* Special order */
+
+
+
+button:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: none;
+  outline-width: 0
+}
+
+.card {
+  border-radius: 10px;
+  border: none;
+  background-color: #FFB74D;
+  padding-bottom: 0px;
+  padding-top: 20px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.left-side {
+  height: 100%;
+}
+
+.btn-pink {
+  background: #10da32;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  border: 1px solid #FF5252;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.btn-pink:hover {
+  background: #F44336;
+  color: #fff;
+}
+
+.fit-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.boy-img {
+  height: auto;
+  width: 360px;
 }
