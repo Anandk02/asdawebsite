@@ -247,9 +247,9 @@ nav img {
 }
 
 .card__title {
-  font-size: 1em;
+  font-size: 1.2em;
   margin: 0 0 .3em;
-  color: #6A515E;
+  color: #000000;
 }
 
 .card__tagline {
@@ -261,8 +261,9 @@ nav img {
 }
 
 .card__status {
-  font-size: .8em;
-  color: #D7BDCA;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #47de25;
 }
 
 .card__description {
@@ -728,10 +729,10 @@ button:focus {
   outline-width: 0
 }
 
-.card {
+.card-special {
   border-radius: 10px;
   border: none;
-  background-color: #FFB74D;
+  background-color: #f2ac34;
   padding-bottom: 0px;
   padding-top: 20px;
   margin-top: 80px;
@@ -743,7 +744,7 @@ button:focus {
 }
 
 .btn-pink {
-  background: #10da32;
+  background: #121312;
   font-size: 16px;
   font-weight: 700;
   color: #fff;
@@ -755,8 +756,8 @@ button:focus {
 }
 
 .btn-pink:hover {
-  background: #F44336;
-  color: #fff;
+  background: #06d254;
+  color: #080606;
 }
 
 .fit-image {
@@ -767,4 +768,37 @@ button:focus {
 .boy-img {
   height: auto;
   width: 360px;
+}
+
+
+
+/* Model */
+
+.modal-body{
+
+  background-color: black;
+}
+
+
+
+.intro-1{
+
+  font-size: 16px;
+}
+
+.close{
+
+  color: #fff;
+}
+
+
+.close:hover{
+
+  color: #fff;
+}
+
+
+.intro-2{
+
+  font-size: 13px;
 }

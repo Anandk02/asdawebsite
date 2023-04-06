@@ -61,43 +61,75 @@
 
   <!-- Auto popup AFTER 10s -->
 
-  <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
+  <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p>Thank you for your interest in our website. For further information or inquiries, please feel free to contact us:</p>
-          <ul>
-            <li>Email: contact@example.com</li>
-            <li>Phone: 123-456-7890<a href="tel:123-456-7890" class="btn btn-primary">
-              Call Now
-            </a></li>
-          </ul>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
+          <div class="modal-body">
+              <div class="text-right"> <i class="fa fa-close close" data-dismiss="modal"></i> </div>
+
+
+              <div class="row">
+
+
+                  <div class="col-md-6">
+                      
+                      <div class="text-center mt-2">
+
+                          <img src="./images/sources/medcine 1.png" width="200">
+                          
+                      </div>
+
+                  </div>
+
+
+                  <div class="col-md-6">
+
+
+                      <div class="text-white mt-5">
+                          
+                          <h1 class="mb-0">Premium</h1>
+                          <span class="intro-1">Take your writing to next level</span>
+
+                          <div class="mt-4">
+
+
+                              <span class="intro-2">Gain access to analytic tools, desktop apps, templates, read-through, features, and autp-translate all for the price of a pro subscription</span>
+                              
+                          </div>
+
+
+                          <div class="mt-4 mb-5">
+
+                              <button class="btn btn-primary">Order Now <i class="fa fa-long-arrow-right"></i></button>
+                              
+
+                          </div>
+
+                      </div>
+                      
+
+                  </div>
+                  
+
+
+
+              </div>
+              
+          </div>
       </div>
-    </div>
+  </div>
   </div>
 
   <!-- Auto popup end -->
 
   <!-- What we use in product -->
   <section class="product">
-    <h1 class="Product-title"> Our Product</h1>
-    <p class="product-sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati iusto, ullam saepe!</p>
+    <h1 class="Product-title"> Our Products</h1>
     <ul class="cards">
       <li>
         <a href="" class="card">
-          <img
-            src="./images/sources/medcine 1.png"
-            class="card__image" alt="" />
+          <img src="./images/sources/medcine 1.png" class="card__image" alt="" />
           <div class="card__overlay">
             <div class="card__header">
               <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
@@ -105,8 +137,9 @@
               </svg>
               <img class="card__thumb" src="./images/sources/medcine 1.png" alt="" />
               <div class="card__header-text">
-                <h3 class="card__title">Jessica Parker</h3>
-                <span class="card__status">1 hour ago</span>
+                <h3 class="card__title">Product Name</h3>
+                <span class="card__status">₹ 1299</span><br>
+                <button class="btn btn-success order">Order Now</button>
               </div>
             </div>
             <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
@@ -124,47 +157,9 @@
               </svg>
               <img class="card__thumb" src="./images/sources/medcine 1.png" alt="" />
               <div class="card__header-text">
-                <h3 class="card__title">Jessica Parker</h3>
-                <span class="card__status">1 hour ago</span>
-              </div>
-            </div>
-            <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-              blanditiis?</p>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="" class="card">
-          <img src="./images/sources/medcine 1.png" class="card__image" alt="" />
-          <div class="card__overlay">
-            <div class="card__header">
-              <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
-                <path />
-              </svg>
-              <img class="card__thumb" src="./images/sources/medcine 1.png" alt="" />
-              <div class="card__header-text">
-                <h3 class="card__title">kim Cattrall</h3>
-                <span class="card__status">3 hours ago</span>
-              </div>
-            </div>
-            <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-              blanditiis?</p>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="" class="card">
-          <img src="./images/sources/medcine 1.png" class="card__image" alt="" />
-          <div class="card__overlay">
-            <div class="card__header">
-              <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
-                <path />
-              </svg>
-              <img class="card__thumb" src="./images/sources/medcine 1.png" alt="" />
-              <div class="card__header-text">
-                <h3 class="card__title">Jessica Parker</h3>
-                <span class="card__tagline">Lorem ipsum dolor sit amet consectetur</span>
-                <span class="card__status">1 hour ago</span>
+                <h3 class="card__title">Product Name</h3>
+                <span class="card__status">₹ 1299</span><br>
+                <button class="btn btn-success order">Order Now</button>
               </div>
             </div>
             <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
@@ -183,7 +178,48 @@
               <img class="card__thumb" src="./images/sources/medcine 1.png" alt="" />
               <div class="card__header-text">
                 <h3 class="card__title">kim Cattrall</h3>
-                <span class="card__status">3 hours ago</span>
+                <span class="card__status">₹ 1299</span><br>
+                <button class="btn btn-success order">Order Now</button>
+              </div>
+            </div>
+            <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+              blanditiis?</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="" class="card">
+          <img src="./images/sources/medcine 1.png" class="card__image" alt="" />
+          <div class="card__overlay">
+            <div class="card__header">
+              <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                <path />
+              </svg>
+              <img class="card__thumb" src="./images/sources/medcine 1.png" alt="" />
+              <div class="card__header-text">
+                <h3 class="card__title">Product Name</h3>
+                <span class="card__status">₹ 1299</span><br>
+                <button class="btn btn-success order">Order Now</button>
+              </div>
+            </div>
+            <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+              blanditiis?</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="" class="card">
+          <img src="./images/sources/medcine 1.png" class="card__image" alt="" />
+          <div class="card__overlay">
+            <div class="card__header">
+              <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                <path />
+              </svg>
+              <img class="card__thumb" src="./images/sources/medcine 1.png" alt="" />
+              <div class="card__header-text">
+                <h3 class="card__title">kim Cattrall</h3>
+                <span class="card__status">₹ 1299</span><br>
+                <button class="btn btn-success order">Order Now</button>
               </div>
             </div>
             <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
@@ -195,54 +231,65 @@
   </section>
   <!-- about us -->
   <section id="how-we-do" class="p-0">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-6 how-bg-img"></div>
-				<div class="col-xs-12 col-sm-12 col-md-6 how-contents">
-					<h4 class="section-title mb-2 h1">What we do</h4>
-					<p class="mb-4">At sudhayurveda, we offer high-quality Ayurvedic products made from natural and organic ingredients to support holistic health and well-being. Our team of experts provides personalized guidance and support to help our customers achieve balance, vitality, and their full potential. We are committed to promoting sustainable and ethical practices in all aspects of our business.</p>
-					<ul class="list-unstyled">
-						<li>We offer natural and organic Ayurvedic products to support holistic health and well-being.</li>
-						<li>Our team includes Ayurvedic practitioners, herbalists, and nutritionists who provide personalized guidance and support to our customers..</li>
-						<li>We are committed to promoting sustainable and ethical practices in all aspects of our business, from sourcing ingredients to packaging and shipping.</li>
-						<li>Our products are formulated to support various aspects of health, including digestion, immunity, and stress management.</li>
-						<li>We believe in the power of Ayurveda to help people achieve balance, vitality, and their full potential.</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 how-bg-img"></div>
+        <div class="col-xs-12 col-sm-12 col-md-6 how-contents">
+          <h4 class="section-title mb-2 h1">What we do</h4>
+          <p class="mb-4">At sudhayurveda, we offer high-quality Ayurvedic products made from natural and organic
+            ingredients to support holistic health and well-being. Our team of experts provides personalized guidance
+            and support to help our customers achieve balance, vitality, and their full potential. We are committed to
+            promoting sustainable and ethical practices in all aspects of our business.</p>
+          <ul class="list-unstyled">
+            <li>We offer natural and organic Ayurvedic products to support holistic health and well-being.</li>
+            <li>Our team includes Ayurvedic practitioners, herbalists, and nutritionists who provide personalized
+              guidance and support to our customers..</li>
+            <li>We are committed to promoting sustainable and ethical practices in all aspects of our business, from
+              sourcing ingredients to packaging and shipping.</li>
+            <li>Our products are formulated to support various aspects of health, including digestion, immunity, and
+              stress management.</li>
+            <li>We believe in the power of Ayurveda to help people achieve balance, vitality, and their full potential.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- About us end -->
 
   <!-- why ayurveda -->
 
   <div class="container">
     <h1 class="text-center">WHY AYURVEDA</h1>
-    <p class="text-center">Everyone wants to live healthily and Ayurveda is the only ancient medical system that helps people live disease-free and healthy.</p>
+    <p class="text-center">Everyone wants to live healthily and Ayurveda is the only ancient medical system that helps
+      people live disease-free and healthy.</p>
     <div class="row">
-        <div class="one-third col-md-4"> <a href="#" class="img-caption">
-                <figure> <img src="./images/sources/root-cause.jpg" alt="" />
-                    <figcaption>
-                        <h3>WORKS ON ROOT CAUSEn</h3> <span>Our focus at sudhayurveda is to identify and treat the root cause of health issues for long-lasting results.</span>
-                    </figcaption>
-                </figure>
-            </a> </div>
-        <div class="one-third col-md-4"> <a href="#" class="img-caption">
-                <figure> <img src="./images/sources/no-side-effects.jpg" alt="" />
-                    <figcaption>
-                        <h3>NO SIDE EFFECTSn</h3> <span>At sudhayurveda, we prioritize the use of natural and organic ingredients to minimize the risk of side effects and promote optimal health.</span>
-                    </figcaption>
-                </figure>
-            </a> </div>
-        <div class="one-third col-md-4"> <a href="#" class="img-caption">
-                <figure> <img src="./images/sources/balance-tridosha.jpg" alt="" />
-                    <figcaption>
-                        <h3>BALANCE TRIDOSHA</h3> <span>Our Ayurvedic products at sudhayurveda are formulated to help balance the three doshas - Vata, Pitta, and Kapha - for overall health and well-being.</span>
-                    </figcaption>
-                </figure>
-            </a> </div>
+      <div class="one-third col-md-4"> <a href="#" class="img-caption">
+          <figure> <img src="./images/sources/root-cause.jpg" alt="" />
+            <figcaption>
+              <h3>WORKS ON ROOT CAUSEn</h3> <span>Our focus at sudhayurveda is to identify and treat the root cause of
+                health issues for long-lasting results.</span>
+            </figcaption>
+          </figure>
+        </a> </div>
+      <div class="one-third col-md-4"> <a href="#" class="img-caption">
+          <figure> <img src="./images/sources/no-side-effects.jpg" alt="" />
+            <figcaption>
+              <h3>NO SIDE EFFECTSn</h3> <span>At sudhayurveda, we prioritize the use of natural and organic ingredients
+                to minimize the risk of side effects and promote optimal health.</span>
+            </figcaption>
+          </figure>
+        </a> </div>
+      <div class="one-third col-md-4"> <a href="#" class="img-caption">
+          <figure> <img src="./images/sources/balance-tridosha.jpg" alt="" />
+            <figcaption>
+              <h3>BALANCE TRIDOSHA</h3> <span>Our Ayurvedic products at sudhayurveda are formulated to help balance the
+                three doshas - Vata, Pitta, and Kapha - for overall health and well-being.</span>
+            </figcaption>
+          </figure>
+        </a> </div>
     </div>
-</div>
+  </div>
 
   <!-- why ayurveda End-->
 
@@ -252,17 +299,18 @@
 
   <!-- Consulting services -->
   <div class="container consult mt-4">
-    <div class="d-flex align-items-center">  
+    <div class="d-flex align-items-center">
     </div>
     <div class="row text-white my-5 py-5">
-        <div class="col-md-6">
-            <p class="h1  font-weight-bold">sudhayurveda Consultations</p>
-            <p> Discover Your Unique Ayurvedic Constitution and Receive Personalized Recommendations to Promote Balance and Vitality.</p>
-        </div>
-        <div class="col-lg-5 col-md-6 pt-md-0 pt-3">
-          <img class="support" src="./images/sources/support.png" alt="">
-        </div>
-        <div>
+      <div class="col-md-6">
+        <p class="h1  font-weight-bold">sudhayurveda Consultations</p>
+        <p> Discover Your Unique Ayurvedic Constitution and Receive Personalized Recommendations to Promote Balance and
+          Vitality.</p>
+      </div>
+      <div class="col-lg-5 col-md-6 pt-md-0 pt-3">
+        <img class="support" src="./images/sources/support.png" alt="">
+      </div>
+      <div>
         <a href="" class="text-white call-button py-2 px-3">Call Now <span class="fa fa-long-arrow-right"></span></a>
         <a href="" class="text-white call-button py-2 px-3">Send Email <span class="fa fa-long-arrow-right"></span></a>
       </div>
@@ -274,112 +322,113 @@
             <button class="text-white py-2 px-3">Let me in! <span class="fa fa-long-arrow-right"></span></button>
         
     </div> -->
-</div>
+  </div>
   <!-- Consulting services End -->
 
   <!-- Counter -->
   <div class="container">
-    
+
     <div class="row">
 
-	<div class="four col-md-3">
-		<div class="counter-box colored">
-			<i class="fa fa-thumbs-o-up"></i>
-			<span class="counter">50K+</span>
-			<p>Happy Customers</p>
-		</div>
-	</div>
-	<div class="four col-md-3">
-		<div class="counter-box">
-			<i class="fa fa-group"></i>
-			<span class="counter">150+</span>
-			<p>Registered Members</p>
-		</div>
-	</div>
-	<div class="four col-md-3">
-		<div class="counter-box">
-			<i class="fa  fa-shopping-cart"></i>
-			<span class="counter">5+</span>
-			<p>Available Products</p>
-		</div>
-	</div>
-	<div class="four col-md-3">
-		<div class="counter-box">
-			<i class="fa  fa-user"></i>
-			<span class="counter">1563</span>
-			<p>Saved Trees</p>
-		</div>
-	</div>
-  </div>	
-</div> 
+      <div class="four col-md-3">
+        <div class="counter-box colored">
+          <i class="fa fa-thumbs-o-up"></i>
+          <span class="counter">50K+</span>
+          <p>Happy Customers</p>
+        </div>
+      </div>
+      <div class="four col-md-3">
+        <div class="counter-box">
+          <i class="fa fa-group"></i>
+          <span class="counter">150+</span>
+          <p>Registered Members</p>
+        </div>
+      </div>
+      <div class="four col-md-3">
+        <div class="counter-box">
+          <i class="fa  fa-shopping-cart"></i>
+          <span class="counter">5+</span>
+          <p>Available Products</p>
+        </div>
+      </div>
+      <div class="four col-md-3">
+        <div class="counter-box">
+          <i class="fa  fa-user"></i>
+          <span class="counter">1563</span>
+          <p>Saved Trees</p>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- Counter end -->
 
   <!-- Testominal start  -->
   <div class="wrapper">
     <h1 class="text-center text-white">Patient Reviews</h1>
-    <p class="text-white text-center">Be it a small or big problem; our customers always choose us as their health partner</p>
+    <p class="text-white text-center">Be it a small or big problem; our customers always choose us as their health
+      partner</p>
     <div class="carousel slide" id="mySlider" data-ride="carousel" data-interval="4000" data-pause="hover">
-        <ol class="carousel-indicators">
-            <li data-target="#mySlider" data-slide-to="0" class="active"></li>
-            <li data-target="#mySlider" data-slide-to="1"></li>
-            <li data-target="#mySlider" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner text-white">
-            <div class="carousel-item active">
-                <div class="content">
-                    <div class="employee">
-                        <div class="h3 text-uppercase">James Maddison</div>
-                        <div class="h6 text-mute">Customer</div>
-                    </div>
-                    <div class="testimonial bg-white text-dark">
-                        <span class="fas fa-quote-left"></span>
-                        <div class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-                            error iusto aliquid
-                            laboriosam voluptas enim sint expedita architecto in voluptates!</div>
-                        <span class="fas fa-quote-right"></span>
-                    </div>
-                </div>
+      <ol class="carousel-indicators">
+        <li data-target="#mySlider" data-slide-to="0" class="active"></li>
+        <li data-target="#mySlider" data-slide-to="1"></li>
+        <li data-target="#mySlider" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner text-white">
+        <div class="carousel-item active">
+          <div class="content">
+            <div class="employee">
+              <div class="h3 text-uppercase">James Maddison</div>
+              <div class="h6 text-mute">Customer</div>
             </div>
-            <div class="carousel-item">
-                <div class="content">
-                    <div class="employee">
-                        <div class="h3 text-uppercase">Jack Anderson</div>
-                        <div class="h6 text-mute">Director</div>
-                    </div>
-                    <div class="testimonial bg-white text-dark">
-                        <span class="fas fa-quote-left"></span>
-                        <div class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-                            error iusto aliquid
-                            laboriosam voluptas enim sint expedita architecto in voluptates!</div>
-                        <span class="fas fa-quote-right"></span>
-                    </div>
-                </div>
+            <div class="testimonial bg-white text-dark">
+              <span class="fas fa-quote-left"></span>
+              <div class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+                error iusto aliquid
+                laboriosam voluptas enim sint expedita architecto in voluptates!</div>
+              <span class="fas fa-quote-right"></span>
             </div>
-            <div class="carousel-item">
-                <div class="content">
-                    <div class="employee">
-                        <div class="h3 text-uppercase">William Wendy</div>
-                        <div class="h6 text-mute">Supervisor</div>
-                    </div>
-                    <div class="testimonial bg-white text-dark">
-                        <span class="fas fa-quote-left"></span>
-                        <div class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-                            error iusto aliquid
-                            laboriosam voluptas enim sint expedita architecto in voluptates!</div>
-                        <span class="fas fa-quote-right"></span>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="carousel-item">
+          <div class="content">
+            <div class="employee">
+              <div class="h3 text-uppercase">Jack Anderson</div>
+              <div class="h6 text-mute">Director</div>
+            </div>
+            <div class="testimonial bg-white text-dark">
+              <span class="fas fa-quote-left"></span>
+              <div class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+                error iusto aliquid
+                laboriosam voluptas enim sint expedita architecto in voluptates!</div>
+              <span class="fas fa-quote-right"></span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="content">
+            <div class="employee">
+              <div class="h3 text-uppercase">William Wendy</div>
+              <div class="h6 text-mute">Supervisor</div>
+            </div>
+            <div class="testimonial bg-white text-dark">
+              <span class="fas fa-quote-left"></span>
+              <div class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+                error iusto aliquid
+                laboriosam voluptas enim sint expedita architecto in voluptates!</div>
+              <span class="fas fa-quote-right"></span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
 
 
   <!-- Testominal end -->
 
 
   <!-- F&q Start -->
-  
+
 
 
   <!-- G&q end -->
@@ -387,90 +436,96 @@
   <!--Specal banner Order  -->
   <div class="container-fluid px-1 py-5 mx-auto row justify-content-center">
     <div class="col-lg-9 col-sm-11 ">
-        <div class="card pl-4 pl-md-5 pr-3">
-            <div class="row">
-                <div class="left-side col-md-5">
-                    <p class="pt-5 mb-0">Experience Natural Healing with Subdhayurveda's High-Quality Ayurvedic Medicines.</p>
-                    <h3 class="mb-0"><strong>Subdhayurveda's Ayurvedic Medicines</strong></h3>
-                    <small class="">Hats & Caps, Sunglasses, Bags & much more.</small><br>
-                    <a href="" class="btn btn-pink mb-5">Order On what's App</a>
-                </div>
-                <div class="right-side col-md-7 row justify-content-center">
-                    <div class="d-flex">
-                        <img class="boy-img fit-image" src="./images/sources/medcine 1.png">
-                    </div>
-                </div>
+      <div class="card-special pl-4 pl-md-5 pr-3">
+        <div class="row">
+          <div class="left-side col-md-5">
+            <p class="pt-5 mb-0">Experience Natural Healing with Subdhayurveda's High-Quality Ayurvedic Medicines.</p>
+            <h3 class="mb-0"><strong>Subdhayurveda's Ayurvedic Medicines</strong></h3>
+            <small class="">Hats & Caps, Sunglasses, Bags & much more.</small><br>
+            <a href="" class="btn btn-pink mb-5">Order On what's App</a>
+          </div>
+          <div class="right-side col-md-7 row justify-content-center">
+            <div class="d-flex">
+              <img class="boy-img fit-image" src="./images/sources/medcine 1.png">
             </div>
+          </div>
         </div>
-    </div>
-</div>
-  <!-- Footer -->
-<footer class="bg-white">
-  <div class="container py-5">
-    <div class="row py-3">
-
-      <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-        <h6 class="text-uppercase font-weight-bold mb-4">About</h6>
-        <ul class="list-unstyled mb-0">
-          <li class="mb-2"><a href="#" class="text-muted">Contact Us</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">About Us</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Stories</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Press</a></li>
-        </ul>
-      </div>
-
-      <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-        <h6 class="text-uppercase font-weight-bold mb-4">Help</h6>
-        <ul class="list-unstyled mb-0">
-          <li class="mb-2"><a href="#" class="text-muted">Payments</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Shipping</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Cancellation</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Returns</a></li>
-        </ul>
-      </div>
-      
-      <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-        <h6 class="text-uppercase font-weight-bold mb-4">Policy</h6>
-        <ul class="list-unstyled mb-0">
-          <li class="mb-2"><a href="#" class="text-muted">Return Policy</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Terms Of Use</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Security</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Privacy</a></li>
-        </ul>
-      </div>
-      <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-        <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
-        <ul class="list-unstyled mb-0">
-          <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Register</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Sitemap</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Our Products</a></li>
-        </ul>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-lg-0">
-        <h6 class="text-uppercase font-weight-bold mb-4">Registered Office Address</h6>
-        <p class="text-muted mb-4">Here , write the complete address of the Registered office address along with telephone number.</p>
-        <ul class="list-inline mt-4">
-          <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fab  fa-2x fa-twitter"></i></a></li>
-          <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fab fa-2x fa-facebook-f"></i></a></li>
-          <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fab fa-2x fa-instagram"></i></a></li>
-          <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i class="fab fa-2x fa-youtube"></i></a></li>
-          <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fab fa-2x fa-google"></i></a></li>
-        </ul>
       </div>
     </div>
   </div>
-  <hr class="p-0 m-0 b-0">
+  <!-- Footer -->
+  <footer class="bg-white">
+    <div class="container py-5">
+      <div class="row py-3">
 
- 
-  <div class="bg-light py-2">
-    <div class="container text-center">
-      <p class="text-muted mb-0 py-2">&copy; 2023 sudhayurveda.in All risghts reserved.</p>
-      
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">About</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="#" class="text-muted">Contact Us</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">About Us</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Stories</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Press</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Help</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="#" class="text-muted">Payments</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Shipping</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Cancellation</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Returns</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Policy</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="#" class="text-muted">Return Policy</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Terms Of Use</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Security</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Privacy</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Register</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Sitemap</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Our Products</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Registered Office Address</h6>
+          <p class="text-muted mb-4">Here , write the complete address of the Registered office address along with
+            telephone number.</p>
+          <ul class="list-inline mt-4">
+            <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i
+                  class="fab  fa-2x fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i
+                  class="fab fa-2x fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i
+                  class="fab fa-2x fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i
+                  class="fab fa-2x fa-youtube"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i
+                  class="fab fa-2x fa-google"></i></a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  
-</footer>
+    <hr class="p-0 m-0 b-0">
+
+
+    <div class="bg-light py-2">
+      <div class="container text-center">
+        <p class="text-muted mb-0 py-2">&copy; 2023 sudhayurveda.in All risghts reserved.</p>
+
+      </div>
+    </div>
+
+  </footer>
   <!-- Footer end -->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
@@ -484,12 +539,12 @@
   <script src="./app.js"></script>
 
   <script>
-    $(document).ready(function(){
-      setTimeout(function(){
+    $(document).ready(function () {
+      setTimeout(function () {
         $('#contactModal').modal('show');
       }, 10000); // show the modal after 10 seconds
     });
-    </script>
+  </script>
 </body>
 
 </html>
