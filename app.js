@@ -124,7 +124,7 @@ function productLeaveAnimation(current, done) {
 function getGradient(name) {
   switch (name) {
     case "handbag":
-      return "linear-gradient(132deg, #F4D03F 0%, #16A085 100%)";
+      return "linear-gradient(19deg, #21D4FD 0%, #B721FF 100%)";
     case "boot":
       return "linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)";
     case "hat":
@@ -135,23 +135,6 @@ function getGradient(name) {
 
 
 
-        
-        
-$(document).ready(function() {
-
-  $('.counter').each(function () {
-$(this).prop('Counter',0).animate({
-  Counter: $(this).text()
-}, {
-  duration: 4000,
-  easing: 'swing',
-  step: function (now) {
-      $(this).text(Math.ceil(now));
-  }
-});
-});
-
-});  
 
 
 
