@@ -58,7 +58,7 @@ nav img {
   flex: 1;
 }
 .image-container img {
-  width: 80%;
+  width: 40%;
 }
 .showcase-text {
   flex: 1;
@@ -191,7 +191,7 @@ nav img {
 }
 
 .card__image {      
-  width: 100%;
+  width: 60%;
   height: auto;
 }
 
@@ -769,7 +769,8 @@ button:focus {
 
 .boy-img {
   height: auto;
-  width: 360px;
+  width: 130px;
+  padding-bottom: 25px;
 }
 
 
